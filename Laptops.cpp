@@ -18,7 +18,8 @@ void HP::Show() {
 }
 
 
-Acer::Acer(int videomemory, std::string color) : Laptops(videomemory), _color(color){
+Acer::Acer(int videomemory, std::string color) : Laptops(videomemory),
+_color(color) {
 
 }
 void Acer::Show() {

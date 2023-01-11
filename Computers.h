@@ -21,7 +21,7 @@ protected:
 
 class Intel : public Computers {
 public:
-	Intel(int sugar, int memory);
+	Intel(int voltage, int memory);
 	void Show() override;
 protected:
 	int _memory;

@@ -1,6 +1,8 @@
+#include <iostream>
 #include "Monoblock.h"
 
-Monoblock::Monoblock(int voltage, int videomemory) : Computers(voltage), Laptops(videomemory) {
+Monoblock::Monoblock(int voltage, int videomemory) : Computers(voltage),
+Laptops(videomemory) {
 
 }
 
